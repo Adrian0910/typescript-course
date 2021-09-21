@@ -1,6 +1,6 @@
 "use strict";
 (function () {
     // StrictNullCheck
-    //let isActive: undefined = undefined;
-    //console.log(isActive);
+    var isActive = undefined;
+    console.log(isActive);
 })();

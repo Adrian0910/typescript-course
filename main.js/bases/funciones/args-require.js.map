@@ -1,0 +1,1 @@
+{"version":3,"file":"args-require.js","sourceRoot":"","sources":["../../../bases/funciones/args-require.ts"],"names":[],"mappings":";AAAA,CAAC;IAEG,IAAM,QAAQ,GAAG,UAAE,SAAgB,EAAE,QAAe;QAGhD,OAAU,SAAS,SAAI,QAAU,CAAC;IAEtC,CAAC,CAAA;IAED,IAAM,IAAI,GAAG,QAAQ,CAAC,MAAM,EAAE,OAAO,CAAC,CAAC;IAEvC,OAAO,CAAC,GAAG,CAAC,EAAC,IAAI,MAAA,EAAC,CAAC,CAAA;AAKvB,CAAC,CAAC,EAAE,CAAA"}

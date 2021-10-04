@@ -49,5 +49,5 @@ var __extends = (this && this.__extends) || (function () {
     var printName = function (character) {
         console.log(character.realName);
     };
-    printName(wolverine);
+    // printName( wolverine );
 })();

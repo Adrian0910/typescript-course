@@ -34,12 +34,27 @@ var __extends = (this && this.__extends) || (function () {
             console.log('Constructos xmen llamado');
             return _this;
         }
+        Object.defineProperty(Xmen.prototype, "fullName", {
+            get: function () {
+                return this.name + " - " + this.realName;
+            },
+            set: function (name) {
+                if (name.length < 3) {
+                    throw new Error('El nombre debe ser mayor de 3 letras');
+                }
+                this.name = name;
+            },
+            enumerable: false,
+            configurable: true
+        });
         Xmen.prototype.getFullNameFromXmen = function () {
             console.log(_super.prototype.getFullName.call(this));
         };
         return Xmen;
     }(Avenger));
     var wolverine = new Xmen('Wolverine', 'Logan', true);
-    console.log(wolverine);
-    wolverine.getFullNameFromXmen();
+    console.log(wolverine.fullName);
+    wolverine.fullName = 'Oxim';
+    console.log(wolverine.fullName);
+    // wolverine.getFullNameFromXmen();
 })();
